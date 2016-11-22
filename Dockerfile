@@ -1,7 +1,5 @@
-FROM alpine
+FROM node:4-alpine
 MAINTAINER sfkwan
-RUN apk update
-RUN apk add nodejs
 
 ADD app.js /
 
