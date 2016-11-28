@@ -6,7 +6,7 @@ app.get('/', function(req, res) {
 	res.send('service 1 -- ' + ip.address());
 });
 
-var server = app.listen(8081, function () {
+var server = app.listen(8080, function () {
     var host = ip.address();
     var port = server.address().port;
 
